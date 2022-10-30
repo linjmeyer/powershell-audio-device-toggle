@@ -5,8 +5,8 @@ $scriptPath = Join-Path $executingScriptDirectory "AudioDeviceCmdlets.dll"
 Import-Module $scriptPath
 
 # ID's of devices, manually set from Get-AudioDevice -List
-$headsetId = "{0.0.0.00000000}.{23fa13ad-9a76-4650-984a-cfd303ad1d1d}"
-$speakersId = "{0.0.0.00000000}.{62570bac-8404-4f40-941d-b6d9278dc923}"
+$headsetId = "{0.0.0.00000000}.{2fcd7156-328a-41ba-acf3-af2fc42544f3}"
+$speakersId = "{0.0.0.00000000}.{9e87ac79-80a6-4f81-9db8-cf619002cefc}"
 # Get current device (-Playback gets default)
 $currentDevice = Get-AudioDevice -Playback
 # Set new device to whatever isn't the default currently
